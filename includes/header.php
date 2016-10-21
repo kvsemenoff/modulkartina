@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
           
-    <div class="col-md-7 col-sm-12">
+    <div class="col-md-9 col-sm-12">
       <ul class="nav">
         <li class=""><a href="#">О компании</a></li>
         <li class=""><a href="#">Самовывоз / Доставка</a></li>
@@ -13,7 +13,7 @@
       </ul>
     </div>
 
-    <div class="col-md-5 col-sm-12 col-xs-12">
+    <div class="col-md-3 col-sm-12 col-xs-12 xa-none">
       <div class="xa-per-box">
         <div class="xa-out">
           <span class="right">Перезвонить Вам?</span>
