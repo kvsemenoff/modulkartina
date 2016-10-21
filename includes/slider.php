@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 <div class="clearfix"></div>
 
@@ -84,3 +85,5 @@
             func1();
     });
 </script>
+=======
+>>>>>>> 5dbf0318c398fc8e84980b15c00ccbf247161a06
