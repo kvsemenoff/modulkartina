@@ -4,6 +4,12 @@
 @import url(style3.css);
 @import url(style4.css);
 @import url(fonts.css);
+@media only screen and (max-width: 480px) {
+  .xa-kor:before {
+    position: absolute;
+    content: url(../img/xa-cart.png);
+    left: -1000px !important;
+    top: -17px; } }
 @media only screen and (max-width: 1248px) {
   .xa-min2 {
     padding: 0; }
@@ -15,7 +21,15 @@
     font-size: 30px !important; }
 
   .xa-per-box {
-    float: none !important; } }
+    float: none !important; }
+
+  .col50 {
+    outline: 1px solid red;
+    width: 33% !important;
+    text-align: center; }
+
+  .col500 {
+    width: 50% !important; } }
 @media only screen and (max-width: 992px) {
   .xa-header {
     text-align: center !important; }
@@ -27,12 +41,20 @@
     text-align: center !important; }
 
   .xa-alm3, .xa-alm2 {
-    text-align: center !important; } }
-.navbar {
-  outline: 1px solid red; }
+    text-align: center !important; }
+
+  .col50, .col500 {
+    width: 100% !important; } }
+.col50 {
+  width: 20%;
+  text-align: center; }
+
+.xa-nopadding {
+  padding-left: 0;
+  padding-right: 0; }
 
 .xa-header {
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   font-family: "OpenSans-Regular";
   background-color: #54524e;
   color: #eee; }
@@ -97,7 +119,7 @@
   .xa-header .xa-min {
     padding: 0; }
   .xa-header .nav {
-    padding: 10px 0 10px 14px; }
+    padding: 10px 0 10px 0px; }
   .xa-header .nav li {
     display: inline;
     font-size: 11px;
@@ -120,5 +142,54 @@
     top: 8px;
     left: -16px;
     content: url(../img/xa-left.png); }
+
+.xa-form-box {
+  font-family: "OpenSans-Regular";
+  background-color: #ececec;
+  z-index: 9999 !important; }
+  .xa-form-box .xa-ybox {
+    margin-top: -25px;
+    background-color: #feb715;
+    height: 50px;
+    border-radius: 5px; }
+  .xa-form-box .xa-kor {
+    position: relative;
+    margin-top: -4px;
+    text-align: right; }
+    .xa-form-box .xa-kor span {
+      display: block; }
+    .xa-form-box .xa-kor .xa-your {
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 15px;
+      font-family: "OpenSans-Bold"; }
+    .xa-form-box .xa-kor .xa-price {
+      color: #7f6f5a; }
+  .xa-form-box .xa-kor:before {
+    position: absolute;
+    content: url(../img/xa-cart.png);
+    left: 0;
+    top: -17px; }
+  .xa-form-box .xa-ybox {
+    padding: 9px 0; }
+    .xa-form-box .xa-ybox input {
+      padding-left: 13px;
+      display: block;
+      width: 100%;
+      border: 1px solid #ffa630;
+      border-radius: 2px;
+      height: 30px; }
+
+.xa-first {
+  background-color: #ececec;
+  padding-top: 35px;
+  padding-bottom: 20px; }
+  .xa-first img {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+  .xa-first p {
+    font-family: 'MarckScript-Regular';
+    padding: 15px 0;
+    font-size: 24px;
+    color: #6c4904; }
 
 /*# sourceMappingURL=style6.css.map */
