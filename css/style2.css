@@ -166,6 +166,9 @@
   margin-bottom: 15px;
   text-align: center; }
 
+.ah-action {
+  margin-top: 25px; }
+
 .ah-action1 {
   background: #ffd296;
   min-height: none;
