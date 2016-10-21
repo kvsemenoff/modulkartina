@@ -9,14 +9,23 @@
 
 .ab-choose{
 	.ab-img-box{
+		outline: 1px solid red;
+		text-align: center;
 		img{
-			box-shadow: 0 0 5px;
+			margin: 0 auto;
+		}
+		.ab-choose-number{
+			color: #ff8f01; /* text color */
+			font-family: "OpenSans";
+			font-size: 60px;
 		}
 	}
 }
 
 
+.ab-present{
 
+}
 
 
 
