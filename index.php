@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css" />
 	<link rel="stylesheet" href="libs/wow/animate.css">
 	<link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+	<link type="text/css" rel="stylesheet" href="css/animated-slider.css" />
 
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link rel="stylesheet" href="css/style.css">
@@ -23,6 +24,7 @@
 	<script src="libs/wow/wow.min.js"></script>
 	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
 	<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+	<script type="text/javascript" src="js/jquery.cssslider.js"></script>
 
 	<script>
     	new WOW().init();
@@ -33,7 +35,12 @@
 	<script src="js/common.js"></script>
 
 	<?php require_once('includes/header.php'); ?>
+<<<<<<< HEAD
 	<?php require_once('includes/weoffer.php'); ?>											
+=======
+	<?php require_once('includes/choose.php'); ?>
+	<?php require_once('includes/present.php'); ?>
+>>>>>>> 49f4b233050597e72a5d0a07355b006bbf218cab
 	<?php require_once('includes/news.php'); ?>
 	<?php require_once('includes/slider.php'); ?>
 	<?php require_once('includes/footer.php'); ?>
