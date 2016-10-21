@@ -35,12 +35,12 @@
 	<script src="js/common.js"></script>
 
 	<?php require_once('includes/header.php'); ?>
-<<<<<<< HEAD
+	<?php require_once('includes/paintingoncanvas.php'); ?>
 	<?php require_once('includes/weoffer.php'); ?>											
-=======
+
 	<?php require_once('includes/choose.php'); ?>
 	<?php require_once('includes/present.php'); ?>
->>>>>>> 49f4b233050597e72a5d0a07355b006bbf218cab
+
 	<?php require_once('includes/news.php'); ?>
 	<?php require_once('includes/slider.php'); ?>
 	<?php require_once('includes/footer.php'); ?>
