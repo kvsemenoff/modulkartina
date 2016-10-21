@@ -18,7 +18,10 @@
     float: none !important; } }
 @media only screen and (max-width: 992px) {
   .xa-header {
-    text-align: center !important; } }
+    text-align: center !important; }
+
+  .xa-none {
+    display: none; } }
 @media only screen and (max-width: 768px) {
   .xa-tel {
     text-align: center !important; }
@@ -113,14 +116,9 @@
       border-radius: 3px !important;
       border: 1px solid #fff; }
   .xa-header .xa-per-box:before {
-    position: relative;
-    top: 36px;
-    left: -29px;
+    position: absolute;
+    top: 8px;
+    left: -16px;
     content: url(../img/xa-left.png); }
-  .xa-header .left {
-    display: inline;
-    width: 30px;
-    height: 30px;
-    background-color: #fff; }
 
 /*# sourceMappingURL=style6.css.map */
