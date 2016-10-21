@@ -1,7 +1,33 @@
-.news_text{
-	font-size: 16px;
-	color: #4da1a9;
+.zk_news_caption{
 	font-family: "OpenSans-Semibold";
+	font-size: 24px;
+	color:#414042;
+	margin:0px 0 17px 0;
+}
+.zk_news_block{
+	.news_text{		
+		min-height:60px;
+		.zk-news-titlebox{
+			min-height: 37px;
+			a{
+				font-size: 16px;
+				color: #4da1a9;
+				font-family: "OpenSans-Semibold";
+				text-decoration: none;
+				line-height: 18px;	
+			}
+			a:hover{
+				text-decoration: underline;
+			}
+		}
+		.zk-date{
+			font-size: 13px;
+			color:#808285;
+			display: block;
+			font-family: "OpenSans-Semibold";			
+		}
+		
+	}
 }
 
 
