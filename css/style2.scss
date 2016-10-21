@@ -5,8 +5,26 @@
 @import "style4.css";
 @import "fonts.css";
 
+// SLIDER*************************************
+.ah-slider-title{
+	display: block;
+	font-family: "OpenSans-LightOpenSans-Light";
+	color: #414042;
+	font-size: 26px;
+	text-transform: uppercase;
+    text-align: center;
+	margin-bottom: 50px;
+}
+.ah-slider{
+	padding: 80px 0px;
+	min-height: 451px;
+	background-color: #fcdebe;
+	overflow: hidden;
+}
 
 
+
+// SLIDER*************************************
 
 
 @media only screen and (min-width : 320px) {

@@ -1,6 +1,126 @@
-.news_text {
-  font-size: 16px;
-  color: #4da1a9;
-  font-family: "OpenSans-Semibold"; }
+@import url(reset.css);
+@import url(style.css);
+@import url(style2.css);
+@import url(style3.css);
+@import url(style4.css);
+@import url(fonts.css);
+@media only screen and (max-width: 1248px) {
+  .xa-min2 {
+    padding: 0; }
 
-/*# sourceMappingURL=style5.css.map */
+  .xa-logo-a {
+    font-size: 24px !important; } }
+@media only screen and (max-width: 992px) {
+  .xa-logo-a {
+    font-size: 30px !important; }
+
+  .xa-per-box {
+    float: none !important; } }
+@media only screen and (max-width: 992px) {
+  .xa-header {
+    text-align: center !important; } }
+@media only screen and (max-width: 768px) {
+  .xa-tel {
+    text-align: center !important; }
+
+  .xa-alm3, .xa-alm2 {
+    text-align: center !important; } }
+.navbar {
+  outline: 1px solid red; }
+
+.xa-header {
+  padding-bottom: 20px;
+  font-family: "OpenSans-Regular";
+  background-color: #54524e;
+  color: #eee; }
+  .xa-header a {
+    color: #eee; }
+  .xa-header .xa-logo {
+    padding-top: 15px; }
+  .xa-header .xa-logo-a {
+    font-size: 30px;
+    padding: 0;
+    font-family: "OpenSans-Bold"; }
+  .xa-header .xa-yellow {
+    color: #feb715; }
+  .xa-header .xa-im {
+    font-size: 13px;
+    padding: 0;
+    color: #ebebeb; }
+  .xa-header .xa-kaz {
+    display: inline-block;
+    color: #feb715;
+    font-family: "OpenSans-Semibold";
+    font-size: 13px;
+    border-bottom: 1px dashed #feb715;
+    text-transform: uppercase;
+    padding-top: 10px;
+    white-space: nowrap; }
+  .xa-header .xa-alm {
+    position: relative;
+    font-size: 13px;
+    color: #fff;
+    padding-top: 2px;
+    padding-left: 20px; }
+  .xa-header .xa-alm:before {
+    position: relative;
+    top: 3px;
+    left: -20px;
+    content: url("../img/xa-marker.png"); }
+  .xa-header .xa-tel {
+    font-family: "OpenSans-LightOpenSans-Light";
+    font-size: 24px;
+    color: #feb715;
+    text-align: right; }
+  .xa-header .xa-telico {
+    position: relative; }
+  .xa-header .xa-telico:before {
+    position: relative;
+    top: 5px;
+    left: 0;
+    content: url("../img/xa-telico.png"); }
+  .xa-header .xa-alm2 {
+    position: relative;
+    font-size: 13px;
+    color: #fff;
+    padding-top: 4px;
+    text-align: right; }
+  .xa-header .xa-alm3 {
+    position: relative;
+    font-size: 13px;
+    color: #fff;
+    padding-top: 6px;
+    text-align: right; }
+  .xa-header .xa-min {
+    padding: 0; }
+  .xa-header .nav {
+    padding: 10px 0 10px 14px; }
+  .xa-header .nav li {
+    display: inline;
+    font-size: 11px;
+    font-family: "OpenSans-Regular";
+    text-transform: uppercase;
+    padding-left: 5px;
+    padding-right: 5px; }
+  .xa-header .xa-per-box {
+    font-size: 12px;
+    text-transform: uppercase;
+    position: relative;
+    float: right;
+    padding: 8px 0 8px 14px; }
+    .xa-header .xa-per-box .xa-out {
+      padding: 7px 17px 6px 17px;
+      border-radius: 3px !important;
+      border: 1px solid #fff; }
+  .xa-header .xa-per-box:before {
+    position: relative;
+    top: 36px;
+    left: -29px;
+    content: url(../img/xa-left.png); }
+  .xa-header .left {
+    display: inline;
+    width: 30px;
+    height: 30px;
+    background-color: #fff; }
+
+/*# sourceMappingURL=style6.css.map */
