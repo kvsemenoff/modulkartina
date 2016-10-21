@@ -60,7 +60,8 @@
 												//PAINTING-ON-CANVAS=====
 .zk-canvas{		
 	text-align: center;
-	margin-top:50px;	
+	margin-top:50px;
+	width: 100%;	
 	.zk-canvas-caption{
 		text-align: center;
 		font-size: 26px;
@@ -85,18 +86,27 @@
 
 
 @media only screen and (min-width : 320px) {
+	.zk-canvas{
+		padding-left:15%;
+	}
 }
 
 @media only screen and (min-width : 480px) {
-	
+	.zk-canvas{
+		padding-left:10%;
+	}
 }
 
 @media only screen and (min-width : 768px) {
-	
+	.zk-canvas{
+		padding-left:20%;
+	}
 }
 
 @media only screen and (min-width : 992px) {
-	
+	.zk-canvas{
+		padding-left:0%;
+	}
 }
 
 @media only screen and (min-width : 1248px) {
@@ -104,6 +114,7 @@
 	background: url(../img/zk_canvas_bg.png) no-repeat;
 	width:100%;
 	height:245px;
+	padding-left:0;
 		.canvas-block{			
 			width:22% !important;
 		}
