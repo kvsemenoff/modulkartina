@@ -192,4 +192,11 @@
     font-size: 24px;
     color: #6c4904; }
 
+footer {
+  padding-top: 30px;
+  background-color: #414042; }
+  footer .xa-header {
+    background-color: #414042;
+    padding-bottom: 30px; }
+
 /*# sourceMappingURL=style6.css.map */
