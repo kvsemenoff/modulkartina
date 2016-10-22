@@ -66,6 +66,9 @@
 	.col50, .col500{
 		width: 100% !important;
 	}
+	.xa-dum p:before{
+		left: 48% !important;
+	}
 }
 
 @media only screen and (min-width : 992px) {
@@ -281,4 +284,65 @@ footer{
 		padding-bottom: 30px;
 	}
 
+}
+.xa-popular{
+	background-color: #fff;
+	padding: 50px 0;
+	h1{
+		font-family: "OpenSans-LightOpenSans-Light";
+		font-size: 36px;
+		padding: 2px 0;
+	}
+	h2{
+		font-size: 26px;
+		font-family: "OpenSans-Regular";
+		padding: 2px 0;
+	}
+	h3{
+		font-size: 18px;
+		font-family: "OpenSans-Regular";
+		padding: 2px 0;
+		text-transform: uppercase;
+	}
+	h4{
+		font-family: "OpenSans-Bold";
+		font-size: 16px;
+		padding: 2px 0;
+	}
+	p{
+		font-family: "OpenSans-Regular";
+		font-size: 15px;
+	}
+	.xa-pbox{
+		padding-bottom: 20px;
+
+	}
+}
+
+.xa-dum{
+	background: linear-gradient(45deg, #4abecd, #3386ae);
+	padding-bottom: 20px;
+	h2{
+		font-family: "OpenSans-LightOpenSans-Light";
+		font-size: 40px;
+		text-align: center;
+		color: #fff;
+		padding: 30px;
+		padding-bottom: 80px;
+	}
+	p{
+		position: relative;
+		padding-top: 10px;
+		font-family: "OpenSans-Regular";
+		text-align: center;
+		font-size: 18px;
+		color: #fff;
+		min-height: 100px;
+	}
+	p:before{
+		position: absolute;
+		left: 43%;
+		top: -44px;
+		content: url(../img/xa-galka.png);
+	}
 }
