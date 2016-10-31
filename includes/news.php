@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container zkmarginbottom">
 	<div class="row">
 	<div class="col-md-12">
 		<h3 class="zk_news_caption">Новости, обзоры</h3>
@@ -16,7 +16,7 @@
 			</div>
 		</div>
 		<div class="col-md-4 col-sm-6 col-xs-12">
-			<div class="zk_news_block">			
+			<div class="zk_news_block" id="zkcenterbox">			
 				<div class="news_text">
 					<div class="zk-news-titlebox"><a href="#">В чем особенность картин modulkartina</a></div>
 					<span class="zk-date">11.05.2016</span>
@@ -37,5 +37,6 @@
 				</div>
 			</div>	
 		</div>
+		<div class="clear"></div>
 	</div>
 </div>	
