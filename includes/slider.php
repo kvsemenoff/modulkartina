@@ -1,108 +1,108 @@
 
 <div class="clearfix"></div>
-
-<div class="container container_style2">
-	<h4 class="h4_margin">Наша команда</h4>
-	<div class="choose_slider">
-		<div id="btn_prev2"></div>
-		<div class="choose_slider_items">
-			<ul id="mySlider2">
-			    <li class="current_item">
-			        <div class="current_item1">
-				        <div class="ah-slideimg">
-							<img src="img/ah-slider1.png" alt="ah-slider1">
-						</div>
-				        <div class="ah-current-wrapp">
-					        <span class="item-title">Абстракция</span>
+<section class="ah-slider">
+	<div class="container container_style2">
+		<span class="ah-slider-title">— Популярные категории —</span>
+		<div class="choose_slider">
+			<div id="btn_prev2"></div>
+			<div class="choose_slider_items">
+				<ul id="mySlider2">
+				    <li class="current_item">
+				        <div class="current_item1">
+					        <div class="ah-slideimg">
+								<img src="img/ah-slider1.png" alt="ah-slider1">
+							</div>
+					        <div class="ah-current-wrapp">
+						        <span class="item-title">Абстракция</span>
+					        </div>
 				        </div>
-			        </div>
-			    </li>
-			    <li class="current_item">
-					<div class="current_item1">
-						<div class="ah-slideimg">
-							<img src="img/ah-slider2.jpg" alt="ah-slider2">
-						</div>
-						<div class="ah-current-wrapp">
-					        <span class="item-title">Африканские</span>
-				        </div>
-			        </div>			    
-		        </li>
-			    <li class="current_item">
-					<div class="current_item1">
-						<div class="ah-slideimg">
-							<img src="img/ah-slider3.jpg" alt="ah-slider3">
-						</div>
-						<div class="ah-current-wrapp">
-					        <span class="item-title">пейзаж</span>
-				        </div>
-			        </div>			    
-		        </li>
-			    <li class="current_item">
-			        <div class="current_item1">
-				        <div class="ah-slideimg">
-							<img src="img/ah-slider4.jpg" alt="ah-slider4">
-						</div>
-				        <div class="ah-current-wrapp">
-					        <span class="item-title">цветы</span>
-				        </div>
-			        </div>                               
-			    </li>
-			    <li class="current_item">
-			        <div class="current_item1">
-				        <div class="ah-slideimg">
-							<img src="img/ah-slider5.jpg" alt="ah-slider5">
-						</div>
-				        <div class="ah-current-wrapp">
-					        <span class="item-title">город</span>
-				        </div>
-			        </div>                               
-			    </li>
-			    <li class="current_item">
-			        <div class="current_item1">
-				        <div class="ah-slideimg">
-							<img src="img/ah-slider1.png" alt="ah-slider1">
-						</div>
-				        <div class="ah-current-wrapp">
-					        <span class="item-title">Абстракция</span>
-				        </div>
-			        </div>                                
-			    </li>
-			    <li class="current_item">
-			        <div class="current_item1">
-				        <div class="ah-slideimg">
-							<img src="img/ah-slider2.jpg" alt="ah-slider2">
-						</div>
-				        <div class="ah-current-wrapp">
-					        <span class="item-title">Африканские</span>
-				        </div>
-			        </div>                                
-			    </li>
-			    <li class="current_item">
-			        <div class="current_item1">
-				        <div class="ah-slideimg">
-							<img src="img/ah-slider3.jpg" alt="ah-slider3">
-						</div>
-				        <div class="ah-current-wrapp">
-					        <span class="item-title">пейзаж</span>
-				        </div>
-			        </div>                                
-			    </li>
-			    <li class="current_item">
-					<div class="current_item1">
-						<div class="ah-slideimg">
-							<img src="img/ah-slider4.jpg" alt="ah-slider4">
-						</div>
-						<div class="ah-current-wrapp">
-							<span class="item-title">цветы</span>
-						</div>
-					</div>                               
-			    </li>
-			</ul>
+				    </li>
+				    <li class="current_item">
+						<div class="current_item1">
+							<div class="ah-slideimg">
+								<img src="img/ah-slider2.jpg" alt="ah-slider2">
+							</div>
+							<div class="ah-current-wrapp">
+						        <span class="item-title">Африканские</span>
+					        </div>
+				        </div>			    
+			        </li>
+				    <li class="current_item">
+						<div class="current_item1">
+							<div class="ah-slideimg">
+								<img src="img/ah-slider3.jpg" alt="ah-slider3">
+							</div>
+							<div class="ah-current-wrapp">
+						        <span class="item-title">пейзаж</span>
+					        </div>
+				        </div>			    
+			        </li>
+				    <li class="current_item">
+				        <div class="current_item1">
+					        <div class="ah-slideimg">
+								<img src="img/ah-slider4.jpg" alt="ah-slider4">
+							</div>
+					        <div class="ah-current-wrapp">
+						        <span class="item-title">цветы</span>
+					        </div>
+				        </div>                               
+				    </li>
+				    <li class="current_item">
+				        <div class="current_item1">
+					        <div class="ah-slideimg">
+								<img src="img/ah-slider5.jpg" alt="ah-slider5">
+							</div>
+					        <div class="ah-current-wrapp">
+						        <span class="item-title">город</span>
+					        </div>
+				        </div>                               
+				    </li>
+				    <li class="current_item">
+				        <div class="current_item1">
+					        <div class="ah-slideimg">
+								<img src="img/ah-slider1.png" alt="ah-slider1">
+							</div>
+					        <div class="ah-current-wrapp">
+						        <span class="item-title">Абстракция</span>
+					        </div>
+				        </div>                                
+				    </li>
+				    <li class="current_item">
+				        <div class="current_item1">
+					        <div class="ah-slideimg">
+								<img src="img/ah-slider2.jpg" alt="ah-slider2">
+							</div>
+					        <div class="ah-current-wrapp">
+						        <span class="item-title">Африканские</span>
+					        </div>
+				        </div>                                
+				    </li>
+				    <li class="current_item">
+				        <div class="current_item1">
+					        <div class="ah-slideimg">
+								<img src="img/ah-slider3.jpg" alt="ah-slider3">
+							</div>
+					        <div class="ah-current-wrapp">
+						        <span class="item-title">пейзаж</span>
+					        </div>
+				        </div>                                
+				    </li>
+				    <li class="current_item">
+						<div class="current_item1">
+							<div class="ah-slideimg">
+								<img src="img/ah-slider4.jpg" alt="ah-slider4">
+							</div>
+							<div class="ah-current-wrapp">
+								<span class="item-title">цветы</span>
+							</div>
+						</div>                               
+				    </li>
+				</ul>
+			</div>
+			<div id="btn_next2"></div>
 		</div>
-		<div id="btn_next2"></div>
 	</div>
-</div>
-
+</section>
 <div class="clearfix"></div>
 
 
