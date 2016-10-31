@@ -102,6 +102,7 @@
 	color: #eee;
 	a{
 		color: #eee;
+		text-decoration: underline;
 	}
 	.xa-logo{
 		padding-top: 15px;
@@ -263,8 +264,8 @@
 	background-color: #ececec;
 	padding-top: 35px;
 	padding-bottom: 20px;
-	img{
-		box-shadow: 0 0 10px rgba(0,0,0,0.2)
+	.shadow{
+		box-shadow: 0 0 10px rgba(0,0,.5,0.2)
 	}
 	p{
 		font-family: 'MarckScript-Regular';

@@ -94,7 +94,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-2 col50 col-sm-4 col-xs-12">
-        <img src="img/xa-first1.png" alt="">
+        <img src="img/xa-first1.png" class="shadow" alt="">
         <p>Картины</p>
       </div>
       <div class="col-md-2 col50 col-sm-4 col-xs-12">
@@ -106,11 +106,11 @@
         <p>Постеры</p>
       </div>
       <div class="col-md-2 col50 col500 col-sm-6 col-xs-12">
-        <img src="img/xa-first4.png" alt="">
+        <img src="img/xa-first4.png" class="shadow" alt="">
         <p>Репродукции</p>
       </div>
       <div class="col-md-2 col50 col500 col-sm-6 col-xs-12">
-        <img src="img/xa-first5.png" alt="">
+        <img src="img/xa-first5.png" class="shadow" alt="">
         <p>Аксессуары</p>
       </div>
     </div>

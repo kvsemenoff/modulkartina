@@ -61,7 +61,8 @@
   background-color: #54524e;
   color: #eee; }
   .xa-header a {
-    color: #eee; }
+    color: #eee;
+    text-decoration: underline; }
   .xa-header .xa-logo {
     padding-top: 15px; }
   .xa-header .xa-logo-a {
@@ -186,7 +187,7 @@
   background-color: #ececec;
   padding-top: 35px;
   padding-bottom: 20px; }
-  .xa-first img {
+  .xa-first .shadow {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
   .xa-first p {
     font-family: 'MarckScript-Regular';
