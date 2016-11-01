@@ -68,9 +68,19 @@
 
 @media only screen and (min-width : 768px) {
 
+	.ab-img-box{
+		float: left;
+	}
+
 }
 
 @media only screen and (min-width : 992px) {
+
+	
+}
+
+@media only screen and (min-width : 1248px) {
+
 
 	.ab-choose{
 		position:relative;
@@ -179,9 +189,6 @@
 			}
 		}
 	}
-}
-
-@media only screen and (min-width : 1248px) {
 
 }
 
