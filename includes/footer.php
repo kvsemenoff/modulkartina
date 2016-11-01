@@ -54,13 +54,13 @@
 	  <div class="container xa-nopadding">
 	    <div class="row">
 	      <div class="col-md-9 col-sm-12">
-	        <ul class="nav">
-	          <li class=""><a href="#">О компании</a></li>
-	          <li class=""><a href="#">Самовывоз / Доставка</a></li>
-	          <li class=""><a href="#">Как оформить заказ</a></li>
-	          <li class=""><a href="#">Фото наших работ</a></li>
-	          <li class=""><a href="#">Отзывы</a></li>
-	          <li class=""><a href="#">Контакты</a></li>
+	        <ul class="nav fz15">
+	          <li><a href="#">О компании</a></li>
+	          <li><a href="#">Самовывоз / Доставка</a></li>
+	          <li><a href="#">Как оформить заказ</a></li>
+	          <li><a href="#">Фото наших работ</a></li>
+	          <li><a href="#">Отзывы</a></li>
+	          <li><a href="#">Контакты</a></li>
 	        </ul>
 	      </div>
 

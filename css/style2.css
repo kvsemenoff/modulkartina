@@ -188,11 +188,10 @@
   font-size: 16px;
   margin-bottom: 10px; }
 
-.ah-schet-wrapp {
-  display: block;
+#clockdiv {
   width: 100%;
   height: 77px; }
-  .ah-schet-wrapp li {
+  #clockdiv li {
     display: inline-block; }
 
 .ah-schet-wrapp-span {
@@ -225,11 +224,10 @@
     margin-top: 250px;
     margin-right: 23px; }
 
-  .ah-schet-wrapp {
-    display: block;
+  #clockdiv {
     width: 350px;
     height: 77px; }
-    .ah-schet-wrapp li {
+    #clockdiv li {
       display: inline-block; }
 
   .ah-popular-topspan {

@@ -16,6 +16,11 @@
 
   .xa-logo-a {
     font-size: 24px !important; } }
+@media only screen and (max-width: 781px){
+  .xa-nopadding{
+    padding: 0 15px !important;
+  }
+}
 @media only screen and (max-width: 992px) {
   .xa-logo-a {
     font-size: 30px !important; }
@@ -46,7 +51,26 @@
     width: 100% !important; }
 
   .xa-dum p:before {
-    left: 48% !important; } }
+    left: 48% !important; }
+
+  .xa-kor {
+    background-color: #feb715;
+    position: relative;
+    top: 30px;
+    left: -30px;
+    padding: 4px 0;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    padding-left: 60px !important; }
+
+  .xa-kor:before {
+    left: -20px !important;
+    top: -12px !important; } }
+@media (min-width: 991px) and (max-width: 1200px) {
+  .xa-kor {
+    position: relative;
+    margin-left: 0px !important;
+    padding-left: 80px !important; } }
 .col50 {
   width: 20%;
   text-align: center; }
@@ -157,8 +181,12 @@
     border-radius: 5px; }
   .xa-form-box .xa-kor {
     position: relative;
+    max-width: 240px;
     margin-top: -4px;
-    text-align: right; }
+    margin-left: 40px;
+    text-align: right;
+    text-align: left;
+    padding-left: 90px; }
     .xa-form-box .xa-kor span {
       display: block; }
     .xa-form-box .xa-kor .xa-your {
@@ -174,14 +202,24 @@
     left: 0;
     top: -17px; }
   .xa-form-box .xa-ybox {
-    padding: 9px 0; }
+    padding: 9px 0;
+    position: relative; }
     .xa-form-box .xa-ybox input {
       padding-left: 13px;
-      display: block;
+      display: inline-block;
       width: 100%;
       border: 1px solid #ffa630;
       border-radius: 2px;
       height: 30px; }
+    .xa-form-box .xa-ybox .search {
+      position: absolute;
+      right: 44px;
+      top: 2px; }
+    .xa-form-box .xa-ybox .search:before {
+      position: relative;
+      content: url("../img/search-line.png");
+      left: -28px;
+      top: 1px; }
 
 .xa-first {
   background-color: #ececec;
@@ -201,6 +239,8 @@ footer {
   footer .xa-header {
     background-color: #414042;
     padding-bottom: 30px; }
+  footer .fz15 a {
+    font-size: 14px; }
 
 .xa-popular {
   background-color: #fff;
@@ -251,5 +291,6 @@ footer {
     left: 43%;
     top: -44px;
     content: url(../img/xa-galka.png); }
-
-/*# sourceMappingURL=style6.css.map */
+.clear{
+  clear: both;
+}
