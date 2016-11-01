@@ -16,6 +16,11 @@
 
   .xa-logo-a {
     font-size: 24px !important; } }
+@media only screen and (max-width: 781px){
+  .xa-nopadding{
+    padding: 0 15px !important;
+  }
+}
 @media only screen and (max-width: 992px) {
   .xa-logo-a {
     font-size: 30px !important; }
@@ -286,5 +291,6 @@ footer {
     left: 43%;
     top: -44px;
     content: url(../img/xa-galka.png); }
-
-/*# sourceMappingURL=style6.css.map */
+.clear{
+  clear: both;
+}

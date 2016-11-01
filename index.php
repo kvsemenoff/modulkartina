@@ -35,7 +35,6 @@
 	<script src="js/common.js"></script>
 
 	<?php require_once('includes/header.php'); ?>
-	<?php require_once('includes/ah-action.php'); ?>
 	<?php require_once('includes/choose.php'); ?>
 	<?php require_once('includes/paintingoncanvas.php'); ?>
 	<?php require_once('includes/weoffer.php'); ?>
