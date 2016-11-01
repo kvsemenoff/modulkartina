@@ -67,22 +67,39 @@
 }
 
 @media only screen and (min-width : 768px) {
-
+.ab-choose{
 	.ab-img-box{
 		float: left;
+		//outline: 1px solid red;
+		height: 278px;
+		width: 239px;
+	}
+	.box2{
+		padding-top:57px;
+	}
+	.box3{
+		padding-top:30px;
+	}
+	.box5{
+		float: right;
+		//height: 285px !important;
+		padding-top:60px;
 	}
 
 }
 
+
+}
+
 @media only screen and (min-width : 992px) {
+		
 
 	
 }
 
 @media only screen and (min-width : 1248px) {
 
-
-	.ab-choose{
+.ab-choose{
 		position:relative;
 		height: 320px;
 		margin-top:60px;
@@ -107,6 +124,8 @@
 			margin-left: 49px;
 			position: absolute;
 			//outline: 1px solid red;
+			// width: 197px;
+			width: unset;
 			height: 274px;
 			.ab-line{
 				display: block;
@@ -189,6 +208,7 @@
 			}
 		}
 	}
+
 
 }
 
