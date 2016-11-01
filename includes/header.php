@@ -74,12 +74,13 @@
     <div class="container">
       <div class="row">
         <div class="xa-ybox">
-          <div class="col-md-9 col-sm-8 col-xs-6">
+          <div class="col-md-9 col-sm-7 col-xs-12">
             <form action="">
               <input type="text" placeholder="Поиск по товарам">
+              <a href="#" class="search"><img src="img/search.png" alt=""></a>
             </form>
           </div>
-          <div class="col-md-3 col-sm-4 col-xs-6">
+          <div class="col-md-3 col-sm-5 col-xs-12">
             <div class="xa-kor">
               <span class="xa-your">Ваша корзина</span>
               <span class="xa-price">9 555 рублей.</span>

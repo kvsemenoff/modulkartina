@@ -68,8 +68,28 @@
 	.xa-dum p:before{
 		left: 48% !important;
 	}
+	.xa-kor{
+		background-color: #feb715;
+		position: relative;
+		top: 30px;
+		left: -30px;
+		padding: 4px 0;
+		border-radius: 4px;
+		margin-bottom: 30px;
+		padding-left: 60px !important;
+	}
+	.xa-kor:before{
+		left: -20px !important;
+		top: -12px !important;
+	}
 }
-
+@media (min-width: 991px) and (max-width: 1200px){
+	.xa-kor{
+		position: relative;
+		margin-left: 0px !important;
+		padding-left: 80px !important;
+	}
+}
 @media only screen and (min-width : 992px) {
 }
 
@@ -225,8 +245,12 @@
 	}
 	.xa-kor{
 		position: relative;
+		max-width: 240px;
 		margin-top: -4px;
+		margin-left: 40px;
 		text-align: right;
+		text-align: left;
+		padding-left: 90px;
 		span{
 			display: block;
 		}
@@ -249,14 +273,26 @@
 	}
 	.xa-ybox{
 		padding: 9px 0;
+		position: relative;
 		input{
 			padding-left: 13px;
-			display: block;
+			display: inline-block;
 			width: 100%;
 			border: 1px solid #ffa630;
 			border-radius: 2px;
 			height: 30px;
 			
+		}
+		.search{
+			position: absolute;
+			right: 44px;
+			top: 2px;
+		}
+		.search:before{
+			position: relative;
+			content: url('../img/search-line.png');
+			left: -28px;
+			top: 1px;
 		}
 	}
 }
@@ -282,6 +318,9 @@ footer{
 	.xa-header{
 		background-color: #414042;
 		padding-bottom: 30px;
+	}
+	.fz15 a{
+		font-size: 14px;
 	}
 
 }
