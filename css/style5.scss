@@ -99,7 +99,7 @@ $silver: #6b6a6d;
 $blacklight: #414042;
 .df-tabs{
 	margin-bottom: 20px;//30
-	margin-top: 10px;
+	margin-top: 50px;
 	text-align: center;
 	span {
 		//border-right:1px solid #c5c3c3;
@@ -133,6 +133,9 @@ $blacklight: #414042;
 			color:#878489;
 			a{
 				color:#4da1a9;
+			}
+			a:hover{
+				text-decoration: underline;
 			}
 		}
 	}
@@ -230,10 +233,8 @@ $blacklight: #414042;
 		}
 	}
 }
-
 .df-tabs-text3{
 	display: none;
-
 	.df-text{		
 		.df-img{
 			width: 168px;
@@ -253,6 +254,231 @@ $blacklight: #414042;
 		}
 	}
 }
+
+//		TABS PHP END
+
+// 		START PRODUCT
+
+.df-menu-top{
+	margin-top:20px; margin-bottom: 10px;		
+	a, span, em{
+		font-size: 13px; color:#abaaa7;font-family:  "OpenSans-Regular";
+		text-decoration: underline;
+		margin-right: 5px;
+	}
+	a:hover{
+		text-decoration: none;
+	}
+	em, span{
+		text-decoration: none;
+	}
+}
+
+
+
+.df-social, .df-price2, .df-card-caption{
+	font-family: "OpenSans-Regular";
+}
+
+.df-card-caption{
+	font-size: 36px; color:#414042;
+	margin-bottom: 30px;
+}
+.df-vertical-slider{
+	float: left;
+	margin: 33px 30px 0 0;
+	.owl-carousel-card{
+	width: 80px;
+	  .group {
+	    position: relative;
+	    div{
+	    	border:1px solid #d7cdcc;
+	    	margin-bottom: 20px;
+	    	cursor:pointer;
+	    	width: auto;height: 52px;	    	
+	    }
+	    div:active{
+	    	border:1px solid red;
+	    }
+	  }
+	  .owl-nav {
+	    padding-top: .4em;
+	    font-family: sans-serif;
+	    font-size: .8em;
+	    > div {
+	      padding: .4em 1.4em;
+	      width: auto; height: 40px;
+	     }
+		    .owl-prev {
+		      background: url(/img/df-slideup.png)no-repeat;      
+		      float: left;
+		      position: absolute;
+		      top:-30px;
+		      left:55%;
+		      transform: translate(-45%, 0%);
+		    }
+		    .owl-next {
+		      background: url(/img/df-slidedown.png)no-repeat;	
+		      float: right;
+		      position: absolute;
+		      bottom: -30px;
+		      left:55%;
+		      transform: translate(-45%, 0%);
+		    }
+	  	}
+	}
+}
+.df-img-card{
+	width: 555px;
+	float: left;
+	margin-right: 30px;	
+}
+.df-rightblock{
+	float: left;
+	display: inline-block;
+	.df-social{
+		border-bottom: 1px solid #e4e6e8;
+		padding-bottom: 15px;
+		span, div{
+			font-size: 14px;color:#878489;
+		}
+		span:first-child{
+			margin-right: 55px;
+		}
+		div{
+			vertical-align: middle;
+			display: inline-block;
+		}		
+	}
+	.df-radiobuttons{
+		border-bottom: 1px solid #e4e6e8;
+		padding-bottom: 20px;
+		.df-cap{
+			font-size: 16px; 
+			color:#414143;
+			font-family: "OpenSans-Semibold";
+			text-transform: uppercase;
+			margin: 15px 0 10px 0;
+		}
+		form{
+			span{
+				font-size: 14px;
+				//color:#414042;
+				color:#878489;
+				font-family: "OpenSans-Regular";
+				width: 270px;				
+			}		
+			label{
+				display: block;
+				margin-bottom: 10px;				
+			}				
+			.checkbox {
+			    display: none;
+			}
+			.checkbox-custom {
+				position: relative;     
+			    width: 15px;             
+			    height: 15px;            
+			    border: 1px solid #feb715;
+			    background:none;
+			    border-radius: 70px;				    
+			    display: inline-block;
+			}				
+			.checkbox-custom{
+			    display: inline-block;
+			    vertical-align: middle;
+			}
+			.checkbox:checked + .checkbox-custom::after {
+			    content: "";            
+			    display: inline-block;          
+			    position: absolute;   	    
+			    top: 2px;
+			    right: 0px;
+			    bottom: 2px;
+			    left: 1px;		    
+			    border-radius: 70px;		   
+			    background: url(/img/df-curcle.png)no-repeat center;
+			}
+			.checkbox:checked + .checkbox-custom::before {
+			    content: "";            
+			    display: inline-block;          
+			    position: absolute;   	    
+			    top: 0px;
+			    right: 0px;
+			    bottom: 0px;
+			    left: 0px;		    
+			    border-radius: 70px;		   
+			    background: #feb715;
+			}						
+		}		
+	}
+	.df-price-buttons{
+		border-bottom: 1px solid #e4e6e8;
+		padding: 15px 0;
+		.df-price1{
+			font-size: 46px; color:#ffa730;font-family: "OpenSans-Semibold";
+		}
+		.df-price2{
+			color:#ff5a21;font-size: 18px;
+			text-decoration: line-through;
+			vertical-align: top;
+		}
+		.df-buttons{
+			span:first-child{
+			display: inline-block;
+			background: linear-gradient(to top, #ffa730, #ffc543);
+			border:1px solid #ffa730;
+			border-radius: 4px;
+			margin-right: 29px;			 
+				  a{
+				  	color:#784c0e; font-size: 13px;font-family: "OpenSans-Regular";
+				  	text-transform: uppercase;			  	
+				  	background: url(/img/df-gift.png)no-repeat left top 0px;			  	
+				  	display: inline-block;				  	
+					padding: 7px 20px;					
+					padding-left: 45px;											 
+				  }				  	  
+			}
+			span:first-child:hover{
+				background: #ffc543;
+			}
+			span:last-child{
+				display: inline-block;
+				border:1px solid #4da1a9;
+				border-radius: 4px;
+				a{
+					font-size: 13px; font-family: "OpenSans-Regular";color:#4da1a9;
+					display: inline-block;
+					background: url(/img/df-buy1.png)no-repeat left 9px  top 5px;
+					padding: 7px 20px;					
+					padding-left: 40px;		
+				}
+			}
+			span:last-child:hover{
+				background: #E6FBFE;
+			}
+		}
+	}
+	.df-text-bottom{
+		ul{
+			li:first-child{
+				font-size: 16px; color:#ffa630;font-family: "OpenSans-Semibold";
+				margin: 7px 0;
+			}
+			li{
+				font-size: 14px; color:#878489;font-family: "OpenSans-Regular";				
+			}
+			li:last-child{
+				font-size: 14px; color:#414042;font-family: "OpenSans-Semibold";
+				margin-top: 7px;
+			}
+		}
+	}
+}
+
+
+
+
 @media only screen and (min-width : 320px) {
 	
 }
@@ -294,17 +520,12 @@ $blacklight: #414042;
 	.df-tabs-text1{
 		padding-left: 19px;
 		margin-top: -4px;
-		margin-bottom: 20px;	
-		.df-first, .df-second{
-			
-		}
+		margin-bottom: 20px;		
 		.df-second{
 		margin-left: 37px;	
 			
 		}
-		.df-text-product{
-			
-		}
+		
 	}
 	#dflastborder a{
 		border-right: none;

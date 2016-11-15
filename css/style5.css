@@ -72,7 +72,7 @@
 
 .df-tabs {
   margin-bottom: 20px;
-  margin-top: 10px;
+  margin-top: 50px;
   text-align: center; }
   .df-tabs span a {
     display: block;
@@ -101,6 +101,8 @@
       color: #878489; }
       .df-tabs-text1 .df-second li a {
         color: #4da1a9; }
+      .df-tabs-text1 .df-second li a:hover {
+        text-decoration: underline; }
   .df-tabs-text1 .df-text-product h4 {
     color: #414042;
     font-family: "OpenSans-Semibold";
@@ -205,6 +207,193 @@
     width: 68%;
     margin-left: 20px;
     margin-bottom: 0px; }
+
+.df-menu-top {
+  margin-top: 20px;
+  margin-bottom: 10px; }
+  .df-menu-top a, .df-menu-top span, .df-menu-top em {
+    font-size: 13px;
+    color: #abaaa7;
+    font-family: "OpenSans-Regular";
+    text-decoration: underline;
+    margin-right: 5px; }
+  .df-menu-top a:hover {
+    text-decoration: none; }
+  .df-menu-top em, .df-menu-top span {
+    text-decoration: none; }
+
+.df-social, .df-price2, .df-card-caption {
+  font-family: "OpenSans-Regular"; }
+
+.df-card-caption {
+  font-size: 36px;
+  color: #414042;
+  margin-bottom: 30px; }
+
+.df-vertical-slider {
+  float: left;
+  margin: 33px 30px 0 0; }
+  .df-vertical-slider .owl-carousel-card {
+    width: 80px; }
+    .df-vertical-slider .owl-carousel-card .group {
+      position: relative; }
+      .df-vertical-slider .owl-carousel-card .group div {
+        border: 1px solid #d7cdcc;
+        margin-bottom: 20px;
+        cursor: pointer;
+        width: auto;
+        height: 52px; }
+      .df-vertical-slider .owl-carousel-card .group div:active {
+        border: 1px solid red; }
+    .df-vertical-slider .owl-carousel-card .owl-nav {
+      padding-top: .4em;
+      font-family: sans-serif;
+      font-size: .8em; }
+      .df-vertical-slider .owl-carousel-card .owl-nav > div {
+        padding: .4em 1.4em;
+        width: auto;
+        height: 40px; }
+      .df-vertical-slider .owl-carousel-card .owl-nav .owl-prev {
+        background: url(/img/df-slideup.png) no-repeat;
+        float: left;
+        position: absolute;
+        top: -30px;
+        left: 55%;
+        transform: translate(-45%, 0%); }
+      .df-vertical-slider .owl-carousel-card .owl-nav .owl-next {
+        background: url(/img/df-slidedown.png) no-repeat;
+        float: right;
+        position: absolute;
+        bottom: -30px;
+        left: 55%;
+        transform: translate(-45%, 0%); }
+
+.df-img-card {
+  width: 555px;
+  float: left;
+  margin-right: 30px; }
+
+.df-rightblock {
+  float: left;
+  display: inline-block; }
+  .df-rightblock .df-social {
+    border-bottom: 1px solid #e4e6e8;
+    padding-bottom: 15px; }
+    .df-rightblock .df-social span, .df-rightblock .df-social div {
+      font-size: 14px;
+      color: #878489; }
+    .df-rightblock .df-social span:first-child {
+      margin-right: 55px; }
+    .df-rightblock .df-social div {
+      vertical-align: middle;
+      display: inline-block; }
+  .df-rightblock .df-radiobuttons {
+    border-bottom: 1px solid #e4e6e8;
+    padding-bottom: 20px; }
+    .df-rightblock .df-radiobuttons .df-cap {
+      font-size: 16px;
+      color: #414143;
+      font-family: "OpenSans-Semibold";
+      text-transform: uppercase;
+      margin: 15px 0 10px 0; }
+    .df-rightblock .df-radiobuttons form span {
+      font-size: 14px;
+      color: #878489;
+      font-family: "OpenSans-Regular";
+      width: 270px; }
+    .df-rightblock .df-radiobuttons form label {
+      display: block;
+      margin-bottom: 10px; }
+    .df-rightblock .df-radiobuttons form .checkbox {
+      display: none; }
+    .df-rightblock .df-radiobuttons form .checkbox-custom {
+      position: relative;
+      width: 15px;
+      height: 15px;
+      border: 1px solid #feb715;
+      background: none;
+      border-radius: 70px;
+      display: inline-block; }
+    .df-rightblock .df-radiobuttons form .checkbox-custom {
+      display: inline-block;
+      vertical-align: middle; }
+    .df-rightblock .df-radiobuttons form .checkbox:checked + .checkbox-custom::after {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      top: 2px;
+      right: 0px;
+      bottom: 2px;
+      left: 1px;
+      border-radius: 70px;
+      background: url(/img/df-curcle.png) no-repeat center; }
+    .df-rightblock .df-radiobuttons form .checkbox:checked + .checkbox-custom::before {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      border-radius: 70px;
+      background: #feb715; }
+  .df-rightblock .df-price-buttons {
+    border-bottom: 1px solid #e4e6e8;
+    padding: 15px 0; }
+    .df-rightblock .df-price-buttons .df-price1 {
+      font-size: 46px;
+      color: #ffa730;
+      font-family: "OpenSans-Semibold"; }
+    .df-rightblock .df-price-buttons .df-price2 {
+      color: #ff5a21;
+      font-size: 18px;
+      text-decoration: line-through;
+      vertical-align: top; }
+    .df-rightblock .df-price-buttons .df-buttons span:first-child {
+      display: inline-block;
+      background: linear-gradient(to top, #ffa730, #ffc543);
+      border: 1px solid #ffa730;
+      border-radius: 4px;
+      margin-right: 29px; }
+      .df-rightblock .df-price-buttons .df-buttons span:first-child a {
+        color: #784c0e;
+        font-size: 13px;
+        font-family: "OpenSans-Regular";
+        text-transform: uppercase;
+        background: url(/img/df-gift.png) no-repeat left top 0px;
+        display: inline-block;
+        padding: 7px 20px;
+        padding-left: 45px; }
+    .df-rightblock .df-price-buttons .df-buttons span:first-child:hover {
+      background: #ffc543; }
+    .df-rightblock .df-price-buttons .df-buttons span:last-child {
+      display: inline-block;
+      border: 1px solid #4da1a9;
+      border-radius: 4px; }
+      .df-rightblock .df-price-buttons .df-buttons span:last-child a {
+        font-size: 13px;
+        font-family: "OpenSans-Regular";
+        color: #4da1a9;
+        display: inline-block;
+        background: url(/img/df-buy1.png) no-repeat left 9px top 5px;
+        padding: 7px 20px;
+        padding-left: 40px; }
+    .df-rightblock .df-price-buttons .df-buttons span:last-child:hover {
+      background: #E6FBFE; }
+  .df-rightblock .df-text-bottom ul li:first-child {
+    font-size: 16px;
+    color: #ffa630;
+    font-family: "OpenSans-Semibold";
+    margin: 7px 0; }
+  .df-rightblock .df-text-bottom ul li {
+    font-size: 14px;
+    color: #878489;
+    font-family: "OpenSans-Regular"; }
+  .df-rightblock .df-text-bottom ul li:last-child {
+    font-size: 14px;
+    color: #414042;
+    font-family: "OpenSans-Semibold";
+    margin-top: 7px; }
 
 @media only screen and (min-width: 768px) {
   .zk-canvas {

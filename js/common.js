@@ -32,7 +32,24 @@ $(document).ready(function(){
     $(".az-select").click(function(){
         $(this).find('.az-options').slideToggle(0);
         $(this).toggleClass('az-select-focus');
-    });
+    });  
+
+
+
+
+  $(".owl-carousel-card").owlCarousel({
+  loop: false,
+  autoplay: false,
+  items: 1,
+  slideSpeed: 500,
+  nav: true,
+  mouseDrag: false,  
+  itemElement:'img',
+  autoplayHoverPause: true,
+  navText:['<div class="owl-prev"></div>','<div class="owl-next "></div>'],  
+  animateOut: 'slideOutUp',
+  animateIn: 'slideInUp'
+});
 
  });
 
