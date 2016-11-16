@@ -283,22 +283,27 @@ $blacklight: #414042;
 .df-card-caption{
 	font-size: 36px; color:#414042;
 	margin-bottom: 30px;
+	text-align: center;
 }
 .df-vertical-slider{
 	float: left;
 	margin: 33px 30px 0 0;
+	padding:  0 0 0 5%;
 	.owl-carousel-card{
 	width: 80px;
+	height: auto;
 	  .group {
-	    position: relative;
-	    div{
+	    position: relative;	    
+	    a{
 	    	border:1px solid #d7cdcc;
-	    	margin-bottom: 20px;
+	    	margin-bottom: 19px;
 	    	cursor:pointer;
-	    	width: auto;height: 52px;	    	
+	    	width: auto;
+	    	height: 54px;
+	    	display: inline-block;	    	
 	    }
-	    div:active{
-	    	border:1px solid red;
+	    a.active{
+	    	border:1px solid #ffa730;
 	    }
 	  }
 	  .owl-nav {
@@ -329,13 +334,18 @@ $blacklight: #414042;
 	}
 }
 .df-img-card{
-	width: 555px;
+	max-width: 555px;
+	max-height: 420px;
 	float: left;
 	margin-right: 30px;	
 }
-.df-rightblock{
-	float: left;
-	display: inline-block;
+
+.df-rightblock{	
+	width: 100%;height: auto;	
+	margin: 0 auto;
+	padding: 0 0px  0 30px ;
+	clear:both;
+	float: none;
 	.df-social{
 		border-bottom: 1px solid #e4e6e8;
 		padding-bottom: 15px;
@@ -429,7 +439,8 @@ $blacklight: #414042;
 			background: linear-gradient(to top, #ffa730, #ffc543);
 			border:1px solid #ffa730;
 			border-radius: 4px;
-			margin-right: 29px;			 
+			margin-right: 29px;
+			margin-bottom: 10px;//<<<<<<<<			 
 				  a{
 				  	color:#784c0e; font-size: 13px;font-family: "OpenSans-Regular";
 				  	text-transform: uppercase;			  	
@@ -475,6 +486,54 @@ $blacklight: #414042;
 		}
 	}
 }
+
+//end product 
+
+//start pricelist
+.df-price{
+	.df-pr-cap{
+		font-size: 24px; color:#414042;font-family: "OpenSans-Semibold";
+		margin-bottom: 15px;//25
+		text-align: center;
+	}
+	.df-list{
+		.df-leftbox, .df-rightbox{
+			//float: left;
+			width: 470px;//
+			margin: 0 auto;			
+		}
+		.df-leftbox{
+			//margin: 0 30px;//
+		}
+		.df-1{
+			margin-bottom: 25px;			
+			display: table;
+			.df-img-1{
+				margin-right: 10px;
+				width: 50px; height:auto;
+				float: left;
+			}
+			.df-text-price{				
+				//float: left;
+				width: 470px;				
+				h4{
+					font-size: 15px; color:#ffa630;font-family: "OpenSans-Semibold";
+					margin-bottom: 3px;
+				}
+				span{
+					font-size: 13px; color:#878489;font-family: "OpenSans-Regular";				
+				}
+			}
+		}
+		.dfmtopbotom{
+			//margin: 45px 0;
+		}
+	}
+}
+
+
+
+
 
 
 
@@ -569,9 +628,50 @@ $blacklight: #414042;
 	.weoffer-text{
 		margin-bottom: 40px;
 	}
-	// #zkcenterbox{
-	// 	margin-top: 2% !important;
-	// }
+	//product
+
+	.df-rightblock{
+		float: left !important;
+		display: inline-block !important;
+		width: 430px;
+		height: auto;	
+		margin: 0 ;
+		padding: 0;
+		clear:none;
+	}
+	.df-card-caption{
+		
+		text-align: left;
+	}
+	.df-vertical-slider{		
+		padding: 0 !important;	
+	}
+	
+
+//pricelist
+	.df-price{
+	.df-pr-cap{		
+		margin-bottom: 25px;//25
+		text-align: left;
+	}
+	.df-list{
+		.df-leftbox, .df-rightbox{
+			float: left;			
+		}
+		.df-leftbox{
+			//margin: 0 30px;
+		}
+		.df-1{			
+			.df-text-price{				
+				float: left;				
+			}
+		}
+		.dfmtopbotom{
+			margin: 45px 0;
+		}
+	}
+}
+
 	
 }
 
@@ -596,6 +696,32 @@ $blacklight: #414042;
 			width:22% !important;
 		}
 	}
+
+
+	//pricelist
+	.df-price{
+	.df-pr-cap{		
+		margin-bottom: 25px;//25
+		text-align: left;
+	}
+	.df-list{
+		.df-leftbox, .df-rightbox{
+			float: left;
+			width: auto;			
+		}
+		.df-leftbox{
+			margin: 0 30px;
+		}
+		.df-1{			
+			.df-text-price{				
+				float: left;				
+			}
+		}
+		.dfmtopbotom{
+			margin: 45px 0;
+		}
+	}
+}
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
