@@ -229,12 +229,12 @@
   font-size: 36px;
   color: #414042;
   margin-bottom: 30px;
-  text-align: center; }
+  text-align: center;
+  letter-spacing: -0.5px; }
 
 .df-vertical-slider {
   float: left;
-  margin: 33px 30px 0 0;
-  padding: 0 0 0 5%; }
+  margin: 27px 20px 0 10px; }
   .df-vertical-slider .owl-carousel-card {
     width: 80px;
     height: auto; }
@@ -242,7 +242,7 @@
       position: relative; }
       .df-vertical-slider .owl-carousel-card .group a {
         border: 1px solid #d7cdcc;
-        margin-bottom: 19px;
+        margin-bottom: 15px;
         cursor: pointer;
         width: auto;
         height: 54px;
@@ -261,16 +261,16 @@
         background: url(/img/df-slideup.png) no-repeat;
         float: left;
         position: absolute;
-        top: -30px;
-        left: 55%;
-        transform: translate(-45%, 0%); }
+        top: -33px;
+        left: 53%;
+        transform: translate(-47%, 0%); }
       .df-vertical-slider .owl-carousel-card .owl-nav .owl-next {
         background: url(/img/df-slidedown.png) no-repeat;
         float: right;
         position: absolute;
-        bottom: -30px;
-        left: 55%;
-        transform: translate(-45%, 0%); }
+        bottom: -25px;
+        left: 50%;
+        transform: translate(-50%, 0%); }
 
 .df-img-card {
   max-width: 555px;
@@ -298,18 +298,19 @@
       display: inline-block; }
   .df-rightblock .df-radiobuttons {
     border-bottom: 1px solid #e4e6e8;
-    padding-bottom: 20px; }
+    padding-bottom: 9px; }
     .df-rightblock .df-radiobuttons .df-cap {
       font-size: 16px;
       color: #414143;
       font-family: "OpenSans-Semibold";
       text-transform: uppercase;
-      margin: 15px 0 10px 0; }
+      margin: 15px 0 8px 0; }
     .df-rightblock .df-radiobuttons form span {
       font-size: 14px;
       color: #878489;
       font-family: "OpenSans-Regular";
-      width: 270px; }
+      width: 270px;
+      padding-left: 5px; }
     .df-rightblock .df-radiobuttons form label {
       display: block;
       margin-bottom: 10px; }
@@ -348,11 +349,13 @@
       background: #feb715; }
   .df-rightblock .df-price-buttons {
     border-bottom: 1px solid #e4e6e8;
-    padding: 15px 0; }
+    padding: 10px 0px 0px 0px; }
     .df-rightblock .df-price-buttons .df-price1 {
       font-size: 46px;
       color: #ffa730;
-      font-family: "OpenSans-Semibold"; }
+      font-family: "OpenSans-Semibold";
+      display: inline-block;
+      margin-bottom: 13px; }
     .df-rightblock .df-price-buttons .df-price2 {
       color: #ff5a21;
       font-size: 18px;
@@ -363,7 +366,7 @@
       background: linear-gradient(to top, #ffa730, #ffc543);
       border: 1px solid #ffa730;
       border-radius: 4px;
-      margin-right: 29px;
+      margin-right: 25px;
       margin-bottom: 10px; }
       .df-rightblock .df-price-buttons .df-buttons span:first-child a {
         color: #784c0e;
@@ -372,7 +375,7 @@
         text-transform: uppercase;
         background: url(/img/df-gift.png) no-repeat left top 0px;
         display: inline-block;
-        padding: 7px 20px;
+        padding: 8px 16px;
         padding-left: 45px; }
     .df-rightblock .df-price-buttons .df-buttons span:first-child:hover {
       background: #ffc543; }
@@ -386,7 +389,7 @@
         color: #4da1a9;
         display: inline-block;
         background: url(/img/df-buy1.png) no-repeat left 9px top 5px;
-        padding: 7px 20px;
+        padding: 8px 17px;
         padding-left: 40px; }
     .df-rightblock .df-price-buttons .df-buttons span:last-child:hover {
       background: #E6FBFE; }
@@ -403,7 +406,7 @@
     font-size: 14px;
     color: #414042;
     font-family: "OpenSans-Semibold";
-    margin-top: 7px; }
+    margin-top: -1px; }
 
 .df-price .df-pr-cap {
   font-size: 24px;
@@ -415,13 +418,15 @@
   width: 470px;
   margin: 0 auto; }
 .df-price .df-list .df-1 {
-  margin-bottom: 25px;
+  margin-bottom: 14px;
   display: table; }
   .df-price .df-list .df-1 .df-img-1 {
-    margin-right: 10px;
+    margin-right: 7px;
     width: 50px;
     height: auto;
-    float: left; }
+    float: left;
+    display: inline-block;
+    margin-top: 5px; }
   .df-price .df-list .df-1 .df-text-price {
     width: 470px; }
     .df-price .df-list .df-1 .df-text-price h4 {
@@ -433,6 +438,78 @@
       font-size: 13px;
       color: #878489;
       font-family: "OpenSans-Regular"; }
+
+.df-norisk {
+  background: linear-gradient(to right, #4dc6d2, #2f7da9);
+  width: 100%;
+  height: 140px;
+  padding: 0px 0 15px 40px;
+  margin-top: 40px; }
+  .df-norisk .df-imgno {
+    display: inline-block; }
+    .df-norisk .df-imgno img {
+      display: inline-block;
+      padding-top: 15px; }
+  .df-norisk .df-textrisk {
+    width: 912px;
+    display: inline-block;
+    margin-left: 30px; }
+    .df-norisk .df-textrisk h3 {
+      font-family: "OpenSans-Semibold";
+      font-size: 26px;
+      color: #fff;
+      font-weight: bolder;
+      text-transform: uppercase; }
+    .df-norisk .df-textrisk p {
+      font-size: 16px;
+      color: #fff;
+      font-family: "OpenSans-Regular"; }
+
+.ah-action {
+  margin-top: 25px; }
+
+.ah-action1 {
+  background: #ffd296;
+  min-height: none;
+  padding: 0px 10px; }
+
+.ah-schet {
+  float: none;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 0px; }
+
+.ah-schet-span {
+  display: block;
+  font-family: "OpenSans-Regular";
+  color: #928779;
+  font-size: 16px;
+  margin-bottom: 10px; }
+
+#clockdiv {
+  width: 100%;
+  height: 77px; }
+  #clockdiv li {
+    display: inline-block; }
+
+.ah-schet-wrapp-span {
+  background: url(../img/ah-action-item.png) center center no-repeat;
+  width: 46px;
+  height: 64px;
+  font-family: "OpenSans-Regular";
+  color: #414042;
+  font-size: 42px;
+  text-align: center;
+  line-height: 64px; }
+
+.ah-schet-wrapp-el {
+  font-family: "OpenSans-Regular";
+  padding: 0px 5px;
+  color: #414042;
+  font-size: 42px;
+  text-align: center;
+  line-height: 64px; }
 
 @media only screen and (min-width: 768px) {
   .zk-canvas {
@@ -498,7 +575,7 @@
   .df-rightblock {
     float: left !important;
     display: inline-block !important;
-    width: 430px;
+    width: 465px;
     height: auto;
     margin: 0;
     padding: 0;
@@ -518,7 +595,47 @@
   .df-price .df-list .df-1 .df-text-price {
     float: left; }
   .df-price .df-list .dfmtopbotom {
-    margin: 45px 0; } }
+    margin: 33px 0; }
+
+  .ah-action1 {
+    background: url(../img/df-bg-clock.png) top center no-repeat;
+    min-height: 160px;
+    margin: 15px 0 35px 0; }
+
+  .ah-schet {
+    float: right;
+    width: 350px;
+    text-align: center;
+    margin-right: 23px; }
+
+  #clockdiv {
+    width: 350px;
+    height: 77px; }
+    #clockdiv li {
+      display: inline-block; }
+
+  .ah-popular-topspan {
+    float: left;
+    display: block;
+    font-family: "OpenSans-LightOpenSans-Light";
+    color: #414042;
+    font-size: 32px;
+    background: url(../img/ah-popular.png) top center no-repeat;
+    width: 288px;
+    height: 49px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    text-align: left; }
+
+  .ah-rightbox {
+    float: right;
+    width: 856px;
+    text-align: left;
+    margin: 0px 0px; }
+
+  .ah-leftbox {
+    float: left;
+    text-align: left; } }
 @media only screen and (min-width: 1248px) {
   .zkmarginbottom {
     margin-bottom: 45px; }
@@ -536,16 +653,14 @@
       width: 22% !important; }
 
   .df-price .df-pr-cap {
-    margin-bottom: 25px;
+    margin-bottom: 28px;
     text-align: left; }
   .df-price .df-list .df-leftbox, .df-price .df-list .df-rightbox {
     float: left;
     width: auto; }
   .df-price .df-list .df-leftbox {
-    margin: 0 30px; }
+    margin: 0px 55px 0 29px; }
   .df-price .df-list .df-1 .df-text-price {
-    float: left; }
-  .df-price .df-list .dfmtopbotom {
-    margin: 45px 0; } }
+    float: left; } }
 
 /*# sourceMappingURL=style5.css.map */

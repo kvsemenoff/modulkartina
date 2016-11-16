@@ -60,10 +60,10 @@ $(document).ready(function(){
 
   });
   $('.group a').click(function(e) {
-        e.preventDefault();
-        $('a').removeClass('active');
-        $(this).addClass('active');          
-    });
+      e.preventDefault();
+      $('a').removeClass('active');
+      $(this).addClass('active');          
+  });
 
 
    $(".owl-carousel-card").owlCarousel({
