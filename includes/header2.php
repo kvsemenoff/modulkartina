@@ -88,35 +88,22 @@
     </div>
 </section>
 
-<section class="xa-first">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-2 col50 col-sm-4 col-xs-12">
-        <img src="img/xa-first1.png" class="shadow" alt="">
-        <a href="#">Картины</a>
-      </div>
-      <div class="col-md-2 col50 col-sm-4 col-xs-12">
-        <img src="img/xa-first2.png" alt="">
-        <a href="#">Модульные картины</a>
-      </div>
-      <div class="col-md-2 col50 col-sm-4 col-xs-12">
-        <img src="img/xa-first3.png" alt="">
-        <a href="#">Постеры</a>
-      </div>
-      <div class="col-md-2 col50 col500 col-sm-6 col-xs-12">
-        <img src="img/xa-first4.png" class="shadow" alt="">
-        <a href="#">Репродукции</a>
-      </div>
-      <div class="col-md-2 col50 col500 col-sm-6 col-xs-12">
-        <img src="img/xa-first5.png" class="shadow" alt="">
-        <a href="#">Аксессуары</a>
-      </div>
+<section class="dd-cat-menu-wrap">
+    <div class="container no-padding">
+        <div class="dd-cat-menu">
+            <ul>
+                <li><a class="dd-any-padding" href="#">Картины</a></li>
+                <li><a href="#">Модульные картины</a></li>
+                <li><a href="#">Постеры</a></li>
+                <li><a class="dd-any-padding" href="#">Репродукции</a></li>
+                <li><a class="dd-any-padding" href="#">Аксессуары</a></li>
+            </ul>
+        </div>
     </div>
-  </div>
 </section>
 
 <section class="dd-sub-menu-wrap">
-    <div class="container">
+    <div class="container no-padding">
         <div class="row">
             <div class="dd-sub-menu">
                 <ul>
