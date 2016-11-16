@@ -16,32 +16,33 @@
 			<div class="df-vertical-slider">			
 				<div class="owl-carousel-card">
 					  <div class="group">
-					    <div><img src="img/df-slider1.png" class="img-responsive"></div>
-					    <div><img src="img/df-slider2.png" class="img-responsive"></div>
-					    <div><img src="img/df-slider3.png" class="img-responsive"></div>
-					    <div><img src="img/df-slider4.png" class="img-responsive"></div>
-					    <div><img src="img/df-slider5.png" class="img-responsive"></div>
+					    <a href="img/df-card1.jpg" class="active"><img src="img/df-slider1.png" class="img-responsive"></a>
+					    <a href="img/df-card1.jpg"><img src="img/df-slider2.png" class="img-responsive"></a>
+					    <a href="img/df-card1.jpg"><img src="img/df-slider3.png" class="img-responsive"></a>
+					    <a href="img/df-card1.jpg"><img src="img/df-slider4.png" class="img-responsive"></a>
+					    <a href="img/df-card1.jpg"><img src="img/df-slider5.png" class="img-responsive"></a>
 					  </div>
-					  <div class="group">
-					    <div><img src="img/df-slider1.png" class="img-responsive"></div>
-					    <div><img src="img/df-slider2.png" class="img-responsive"></div>
-					    <div><img src="img/df-slider3.png" class="img-responsive"></div>
-					    <div><img src="img/df-slider4.png" class="img-responsive"></div>
-					    <div><img src="img/df-slider5.png" class="img-responsive"></div>
+					   <div class="group">
+					    <a href="img/df-card1.jpg"><img src="img/df-slider1.png" class="img-responsive"></a>
+					    <a href="img/df-card1.jpg"><img src="img/df-slider2.png" class="img-responsive"></a>
+					    <a href="img/df-card1.jpg"><img src="img/df-slider3.png" class="img-responsive"></a>
+					    <a href="img/df-card1.jpg"><img src="img/df-slider4.png" class="img-responsive"></a>
+					    <a href="img/df-card1.jpg"><img src="img/df-slider5.png" class="img-responsive"></a>
 					  </div>
-					  <div class="group">
-					    <div><img src="img/df-slider1.png" class="img-responsive"></div>
-					    <div><img src="img/df-slider2.png" class="img-responsive"></div>
-					    <div><img src="img/df-slider3.png" class="img-responsive"></div>
-					    <div><img src="img/df-slider4.png" class="img-responsive"></div>
-					    <div><img src="img/df-slider5.png" class="img-responsive"></div>
+					   <div class="group">
+					    <a href="img/df-card1.jpg"><img src="img/df-slider1.png" class="img-responsive"></a>
+					    <a href="img/df-card1.jpg"><img src="img/df-slider2.png" class="img-responsive"></a>
+					    <a href="img/df-card1.jpg"><img src="img/df-slider3.png" class="img-responsive"></a>
+					    <a href="img/df-card1.jpg"><img src="img/df-slider4.png" class="img-responsive"></a>
+					    <a href="img/df-card1.jpg"><img src="img/df-slider5.png" class="img-responsive"></a>
 					  </div>
+					 
 				</div>
 			</div>
 			<div class="df-img-card">
 				<img src="img/df-card1.jpg" alt="" class="img-responsive">
 			</div>	
-	
+				
 			<div class="df-rightblock">
 				<div class="df-social">					
 					<span>Артикул: 50534</span>

@@ -37,7 +37,8 @@
 	<?php require_once('includes/header.php'); ?>
 	<?php require_once('includes/product.php'); ?>
 	<?php require_once('includes/ah-action.php'); ?>	
-	<?php require_once('includes/tabs.php'); ?>		
+	<?php require_once('includes/tabs.php'); ?>
+	<?php require_once('includes/pricelist.php'); ?>			
 	<?php require_once('includes/paintingoncanvas.php'); ?>	
 	<?php require_once('includes/present.php'); ?>
 

@@ -228,23 +228,27 @@
 .df-card-caption {
   font-size: 36px;
   color: #414042;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  text-align: center; }
 
 .df-vertical-slider {
   float: left;
-  margin: 33px 30px 0 0; }
+  margin: 33px 30px 0 0;
+  padding: 0 0 0 5%; }
   .df-vertical-slider .owl-carousel-card {
-    width: 80px; }
+    width: 80px;
+    height: auto; }
     .df-vertical-slider .owl-carousel-card .group {
       position: relative; }
-      .df-vertical-slider .owl-carousel-card .group div {
+      .df-vertical-slider .owl-carousel-card .group a {
         border: 1px solid #d7cdcc;
-        margin-bottom: 20px;
+        margin-bottom: 19px;
         cursor: pointer;
         width: auto;
-        height: 52px; }
-      .df-vertical-slider .owl-carousel-card .group div:active {
-        border: 1px solid red; }
+        height: 54px;
+        display: inline-block; }
+      .df-vertical-slider .owl-carousel-card .group a.active {
+        border: 1px solid #ffa730; }
     .df-vertical-slider .owl-carousel-card .owl-nav {
       padding-top: .4em;
       font-family: sans-serif;
@@ -269,13 +273,18 @@
         transform: translate(-45%, 0%); }
 
 .df-img-card {
-  width: 555px;
+  max-width: 555px;
+  max-height: 420px;
   float: left;
   margin-right: 30px; }
 
 .df-rightblock {
-  float: left;
-  display: inline-block; }
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0 0px 0 30px;
+  clear: both;
+  float: none; }
   .df-rightblock .df-social {
     border-bottom: 1px solid #e4e6e8;
     padding-bottom: 15px; }
@@ -354,7 +363,8 @@
       background: linear-gradient(to top, #ffa730, #ffc543);
       border: 1px solid #ffa730;
       border-radius: 4px;
-      margin-right: 29px; }
+      margin-right: 29px;
+      margin-bottom: 10px; }
       .df-rightblock .df-price-buttons .df-buttons span:first-child a {
         color: #784c0e;
         font-size: 13px;
@@ -394,6 +404,35 @@
     color: #414042;
     font-family: "OpenSans-Semibold";
     margin-top: 7px; }
+
+.df-price .df-pr-cap {
+  font-size: 24px;
+  color: #414042;
+  font-family: "OpenSans-Semibold";
+  margin-bottom: 15px;
+  text-align: center; }
+.df-price .df-list .df-leftbox, .df-price .df-list .df-rightbox {
+  width: 470px;
+  margin: 0 auto; }
+.df-price .df-list .df-1 {
+  margin-bottom: 25px;
+  display: table; }
+  .df-price .df-list .df-1 .df-img-1 {
+    margin-right: 10px;
+    width: 50px;
+    height: auto;
+    float: left; }
+  .df-price .df-list .df-1 .df-text-price {
+    width: 470px; }
+    .df-price .df-list .df-1 .df-text-price h4 {
+      font-size: 15px;
+      color: #ffa630;
+      font-family: "OpenSans-Semibold";
+      margin-bottom: 3px; }
+    .df-price .df-list .df-1 .df-text-price span {
+      font-size: 13px;
+      color: #878489;
+      font-family: "OpenSans-Regular"; }
 
 @media only screen and (min-width: 768px) {
   .zk-canvas {
@@ -454,7 +493,32 @@
     margin-top: 45px; }
 
   .weoffer-text {
-    margin-bottom: 40px; } }
+    margin-bottom: 40px; }
+
+  .df-rightblock {
+    float: left !important;
+    display: inline-block !important;
+    width: 430px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    clear: none; }
+
+  .df-card-caption {
+    text-align: left; }
+
+  .df-vertical-slider {
+    padding: 0 !important; }
+
+  .df-price .df-pr-cap {
+    margin-bottom: 25px;
+    text-align: left; }
+  .df-price .df-list .df-leftbox, .df-price .df-list .df-rightbox {
+    float: left; }
+  .df-price .df-list .df-1 .df-text-price {
+    float: left; }
+  .df-price .df-list .dfmtopbotom {
+    margin: 45px 0; } }
 @media only screen and (min-width: 1248px) {
   .zkmarginbottom {
     margin-bottom: 45px; }
@@ -469,6 +533,19 @@
     padding-left: 0;
     margin-top: 50px; }
     .zk-canvas .canvas-block {
-      width: 22% !important; } }
+      width: 22% !important; }
+
+  .df-price .df-pr-cap {
+    margin-bottom: 25px;
+    text-align: left; }
+  .df-price .df-list .df-leftbox, .df-price .df-list .df-rightbox {
+    float: left;
+    width: auto; }
+  .df-price .df-list .df-leftbox {
+    margin: 0 30px; }
+  .df-price .df-list .df-1 .df-text-price {
+    float: left; }
+  .df-price .df-list .dfmtopbotom {
+    margin: 45px 0; } }
 
 /*# sourceMappingURL=style5.css.map */
