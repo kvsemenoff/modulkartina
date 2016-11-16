@@ -221,17 +221,39 @@
       left: -28px;
       top: 1px; }
 
+
+
+
+
 .xa-first {
   background-color: #ececec;
   padding-top: 35px;
-  padding-bottom: 20px; }
-  .xa-first .shadow {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
-  .xa-first p {
-    font-family: 'MarckScript-Regular';
-    padding: 15px 0;
-    font-size: 24px;
-    color: #6c4904; }
+  padding-bottom: 20px; 
+}
+.xa-first .shadow {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+.xa-first a {
+  display: inline-block;
+  font-family: 'MarckScript-Regular';
+  padding: 15px 0;
+  font-size: 24px;
+  color: #6c4904; 
+  transition: 0.5s;
+}
+a:hover{
+  color:#FFA730;
+}
+
+
+
+
+
+
+
+
+
+
 
 footer {
   padding-top: 30px;
