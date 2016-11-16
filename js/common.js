@@ -80,6 +80,37 @@ $(document).ready(function(){
   animateIn: 'slideInUp'
 });
 
+  var owl = $(".pop-slider");
+  owl.owlCarousel({
+    loop:true,//Зацикливаем слайдер
+    nav:true, //Навигация включена
+    autoplay:false,//автозапуск
+    smartSpeed:1000,//Время движения
+    margin:0,
+    navText:['<span class="prev-ars1"></span>','<span class="next-ars1"></span>'],
+    responsive:{
+        0:{
+          items:1
+        },
+        380:{
+          items:2
+        },
+        600:{
+          items:3
+        },
+        1000:{
+          items:4
+        },
+         1200:{
+          items:4
+        }
+    } 
+ 
+ });
+
+
+
+  
 
  });
 
