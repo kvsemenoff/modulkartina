@@ -685,6 +685,59 @@
 	}
 }
 
+/* Слайдер ====================================*/
+
+.pop-slider{
+	position:relative;
+	.item{
+		width: 100%;
+		.ah-popular-item{
+			margin:14px;
+		}
+	}
+	.owl-controls{
+		.owl-nav{
+			.owl-prev{
+				position:absolute;
+				top:50%;
+			    transform: translate(0%, -50%);
+				width:58px;
+				height:58px;
+				.prev-ars1{
+					display: inline-block;
+					background:#FAFAFA url(../img/left.png) no-repeat center;
+					width:58px;
+					height:58px;
+					border:1px solid #E4E6E8;
+					border-radius:30px;
+				}
+			}
+			.owl-next{
+				position:absolute;
+				top:50%;
+			    transform: translate(0%, -50%);
+				right: 0;
+				.next-ars1{
+					display: inline-block;
+					background:#FAFAFA url(../img/right.png) no-repeat center;
+					border:1px solid #E4E6E8;
+					border-radius:30px;
+					width:58px;
+					height:58px;
+				}
+			}
+		}
+	}
+}
+.paddings{
+	padding-left:0 !important;
+	padding-right:0 !important;
+}
+
+.xa-popular2{
+	padding-top:0;
+}
+
 /*=============================================*/
 
 @media only screen and (min-width : 320px) {
@@ -772,7 +825,8 @@
 	/* Sub-menu ===============================*/
 
 	.dd-sub-menu-wrap{
-		.dd-sub-menu{
+		display: none;
+		.dd-sub-menu{			
 			ul{
 				li{
 					display: inline-block;

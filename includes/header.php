@@ -93,34 +93,34 @@
     <div class="row">
       <div class="col-md-2 col50 col-sm-4 col-xs-12">
         <img src="img/xa-first1.png" class="shadow" alt="">
-        <a href="#">Картины</a>
+        <a href=".m1">Картины</a>
       </div>
       <div class="col-md-2 col50 col-sm-4 col-xs-12">
         <img src="img/xa-first2.png" alt="">
-        <a href="#">Модульные картины</a>
+        <a href=".m2">Модульные картины</a>
       </div>
       <div class="col-md-2 col50 col-sm-4 col-xs-12">
         <img src="img/xa-first3.png" alt="">
-        <a href="#">Постеры</a>
+        <a href=".m3">Постеры</a>
       </div>
       <div class="col-md-2 col50 col500 col-sm-6 col-xs-12">
         <img src="img/xa-first4.png" class="shadow" alt="">
-        <a href="#">Репродукции</a>
+        <a href=".m4">Репродукции</a>
       </div>
       <div class="col-md-2 col50 col500 col-sm-6 col-xs-12">
         <img src="img/xa-first5.png" class="shadow" alt="">
-        <a href="#">Аксессуары</a>
+        <a href=".m5">Аксессуары</a>
       </div>
     </div>
   </div>
 </section>
 
-<section class="dd-sub-menu-wrap">
-    <div class="container">
+<section class="dd-sub-menu-wrap m1">
+    <div class="container no-padding">
         <div class="row">
             <div class="dd-sub-menu">
                 <ul>
-                    <li><a href="#">Цветы</a></li>
+                    <li><a href="#">1Цветы</a></li>
                     <li><a href="#">Природа</a></li>
                     <li><a href="#">Котики</a></li>
                     <li><a href="#">Абстракция</a></li>
@@ -133,3 +133,84 @@
         </div>
     </div>
 </section>
+<section class="dd-sub-menu-wrap m2">
+    <div class="container no-padding">
+        <div class="row">
+            <div class="dd-sub-menu">
+                <ul>
+                    <li><a href="#">2Цветы</a></li>
+                    <li><a href="#">Природа</a></li>
+                    <li><a href="#">Котики</a></li>
+                    <li><a href="#">Абстракция</a></li>
+                    <li><a href="#">Города</a></li>
+                    <li><a href="#">Для кухни</a></li>
+                    <li><a href="#">Для спальни</a></li>
+                    <li><a href="#">Африка</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="dd-sub-menu-wrap m3">
+    <div class="container no-padding">
+        <div class="row">
+            <div class="dd-sub-menu">
+                <ul>
+                    <li><a href="#">3Цветы</a></li>
+                    <li><a href="#">Природа</a></li>
+                    <li><a href="#">Котики</a></li>
+                    <li><a href="#">Абстракция</a></li>
+                    <li><a href="#">Города</a></li>
+                    <li><a href="#">Для кухни</a></li>
+                    <li><a href="#">Для спальни</a></li>
+                    <li><a href="#">Африка</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="dd-sub-menu-wrap m4">
+    <div class="container no-padding">
+        <div class="row">
+            <div class="dd-sub-menu">
+                <ul>
+                    <li><a href="#">4Цветы</a></li>
+                    <li><a href="#">Природа</a></li>
+                    <li><a href="#">Котики</a></li>
+                    <li><a href="#">Абстракция</a></li>
+                    <li><a href="#">Города</a></li>
+                    <li><a href="#">Для кухни</a></li>
+                    <li><a href="#">Для спальни</a></li>
+                    <li><a href="#">Африка</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="dd-sub-menu-wrap m5">
+    <div class="container no-padding">
+        <div class="row">
+            <div class="dd-sub-menu">
+                <ul>
+                    <li><a href="#">5Цветы</a></li>
+                    <li><a href="#">Природа</a></li>
+                    <li><a href="#">Котики</a></li>
+                    <li><a href="#">Абстракция</a></li>
+                    <li><a href="#">Города</a></li>
+                    <li><a href="#">Для кухни</a></li>
+                    <li><a href="#">Для спальни</a></li>
+                    <li><a href="#">Африка</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+ $('.xa-first a').click(function(e){
+        e.preventDefault();        
+        var tab = $(this).attr('href');
+        $('.dd-sub-menu-wrap').not(tab).css({'display':'none'});
+        $(tab).slideToggle(400);           
+    });
+</script>
