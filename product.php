@@ -40,10 +40,8 @@
 	<?php require_once('includes/tabs.php'); ?>
 	<?php require_once('includes/pricelist.php'); ?>
 	<?php require_once('includes/norisk.php'); ?>				
-	<?php require_once('includes/paintingoncanvas.php'); ?>	
-	
-	
-	
+	<?php require_once('includes/paintingoncanvas2.php'); ?>
+	<?php require_once('includes/popularslider.php'); ?>	
 	<?php require_once('includes/footer2.php'); ?>
 
 	

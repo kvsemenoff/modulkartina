@@ -1,10 +1,7 @@
-
-<div class="clearfix"></div>
-
 <section class="ah-action">
-    <div class="container ah-action1">
+    <div class="container ">
     	<div class="row">
-			<div class="col-md-12 col-sm-12 col-xs-12">
+			<div class="col-md-12 col-sm-12 col-xs-12 ah-action1">
 				<div class="ah-schet">
 					<span class="ah-schet-span">До конца акции осталось</span>
 					<ul id="clockdiv">
