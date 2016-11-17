@@ -499,26 +499,25 @@ $blacklight: #414042;
 		text-align: center;
 	}
 	.df-list{
-		.df-leftbox, .df-rightbox{
-			//float: left;
+		.df-leftbox, .df-rightbox{			
 			width: 470px;//
 			margin: 0 auto;			
 		}
 		.df-leftbox{
-			//margin: 0 30px;//
+			
 		}
 		.df-1{
-			margin-bottom: 14px;//25			
+			margin-bottom: 14px;		
 			display: table;
 			.df-img-1{
 				margin-right: 7px;
-				width: 50px; height:auto;
+				width: 50px; 
+				height:67px;//
 				float: left;
 				display: inline-block;
 				margin-top: 5px;
 			}
 			.df-text-price{				
-				//float: left;
 				width: 470px;				
 				h4{
 					font-size: 15px; color:#ffa630;font-family: "OpenSans-Semibold";
@@ -541,22 +540,15 @@ $blacklight: #414042;
 //start norisk
 .df-norisk{
 	background: linear-gradient(to right, #4dc6d2, #2f7da9);
-	width: 100%;
-	height: 140px;
-	padding:0px 0 15px 40px;
+	width: 100%;	
+	padding: 10px 15px;
 	margin-top: 40px; 	
-	.df-imgno{
-		display: inline-block;		
-		img{
-			display: inline-block;
-			padding-top: 15px;
-		}		
+	.df-imgno{		
+		display: none;				
 	}
-	.df-textrisk{
-		width: 912px;
-		display: inline-block;
-		margin-left: 30px;
-		
+	.df-textrisk{		
+		display: inline-block;		
+		text-align: center;		
 		h3{
 			font-family: "OpenSans-Semibold";font-size: 26px; color:#fff;font-weight: bolder;
 			text-transform: uppercase;
@@ -576,6 +568,7 @@ $blacklight: #414042;
     background: #ffd296;
 	min-height: none;
 	padding: 0px 10px;
+	margin-bottom: 20px;
 }
 .ah-schet{
 	float: none;
@@ -598,14 +591,7 @@ $blacklight: #414042;
 		display: inline-block;
 	}
 }
-// .ah-schet-wrapp{
-// 	display: block;
-// 	width: 100%;
-// 	height: 77px;
-// 	li{
-// 		display: inline-block;
-// 	}
-// }
+
 .ah-schet-wrapp-span{
 	background: url(../img/ah-action-item.png) center center no-repeat;
 	width: 46px;
@@ -649,8 +635,6 @@ $blacklight: #414042;
 		text-align: left;
 	}
 
-
-
 	//tabs php
 	
 	.df-tabs{
@@ -673,8 +657,7 @@ $blacklight: #414042;
 		margin-top: -4px;
 		margin-bottom: 20px;		
 		.df-second{
-		margin-left: 37px;	
-			
+		margin-left: 37px;			
 		}
 		
 	}
@@ -757,6 +740,9 @@ $blacklight: #414042;
 			.df-text-price{				
 				float: left;				
 			}
+			.df-img-1{				
+				height:auto;
+			}
 		}
 		.dfmtopbotom{
 			margin: 33px 0;
@@ -806,7 +792,11 @@ $blacklight: #414042;
 		float: left;
 		text-align: left;
 	}
+
 }
+
+
+
 
 	
 
@@ -833,24 +823,42 @@ $blacklight: #414042;
 
 	//pricelist
 	.df-price{
-	.df-pr-cap{		
-		margin-bottom: 28px;//25
-		text-align: left;
-	}
+		.df-pr-cap{		
+			margin-bottom: 28px;//25
+			text-align: left;
+		}
 	.df-list{
-		.df-leftbox, .df-rightbox{
-			float: left;
-			width: auto;			
-		}
-		.df-leftbox{
-			margin: 0px 55px 0 29px;
-		}
-		.df-1{			
-			.df-text-price{				
-				float: left;				
+			.df-leftbox, .df-rightbox{
+				float: left;
+				width: auto;			
 			}
+			.df-leftbox{
+				margin: 0px 55px 0 29px;
+			}
+			.df-1{			
+				.df-text-price{				
+					float: left;				
+				}
+			}		
 		}
-		
+	}
+		//norisk
+.df-norisk{	
+	height: 140px;
+	padding:0px 0 15px 40px;	
+	
+	.df-imgno{
+		display: inline-block;			
+		img{
+			display: inline-block;
+			padding-top: 15px;
+		}		
+	}
+	.df-textrisk{
+		width: 912px;
+		display: inline-block;
+		margin-left: 30px;
+		text-align: left
 	}
 }
 }

@@ -423,7 +423,7 @@
   .df-price .df-list .df-1 .df-img-1 {
     margin-right: 7px;
     width: 50px;
-    height: auto;
+    height: 67px;
     float: left;
     display: inline-block;
     margin-top: 5px; }
@@ -442,18 +442,13 @@
 .df-norisk {
   background: linear-gradient(to right, #4dc6d2, #2f7da9);
   width: 100%;
-  height: 140px;
-  padding: 0px 0 15px 40px;
+  padding: 10px 15px;
   margin-top: 40px; }
   .df-norisk .df-imgno {
-    display: inline-block; }
-    .df-norisk .df-imgno img {
-      display: inline-block;
-      padding-top: 15px; }
+    display: none; }
   .df-norisk .df-textrisk {
-    width: 912px;
     display: inline-block;
-    margin-left: 30px; }
+    text-align: center; }
     .df-norisk .df-textrisk h3 {
       font-family: "OpenSans-Semibold";
       font-size: 26px;
@@ -471,7 +466,8 @@
 .ah-action1 {
   background: #ffd296;
   min-height: none;
-  padding: 0px 10px; }
+  padding: 0px 10px;
+  margin-bottom: 20px; }
 
 .ah-schet {
   float: none;
@@ -594,6 +590,8 @@
     float: left; }
   .df-price .df-list .df-1 .df-text-price {
     float: left; }
+  .df-price .df-list .df-1 .df-img-1 {
+    height: auto; }
   .df-price .df-list .dfmtopbotom {
     margin: 33px 0; }
 
@@ -661,6 +659,20 @@
   .df-price .df-list .df-leftbox {
     margin: 0px 55px 0 29px; }
   .df-price .df-list .df-1 .df-text-price {
-    float: left; } }
+    float: left; }
+
+  .df-norisk {
+    height: 140px;
+    padding: 0px 0 15px 40px; }
+    .df-norisk .df-imgno {
+      display: inline-block; }
+      .df-norisk .df-imgno img {
+        display: inline-block;
+        padding-top: 15px; }
+    .df-norisk .df-textrisk {
+      width: 912px;
+      display: inline-block;
+      margin-left: 30px;
+      text-align: left; } }
 
 /*# sourceMappingURL=style5.css.map */
