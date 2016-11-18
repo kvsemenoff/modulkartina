@@ -1,9 +1,9 @@
-<section class="ah-action">
+<section class="ah-action2 dfmtop">
     <div class="container ">
     	<div class="row">
-			<div class="col-md-12 col-sm-12 col-xs-12 ah-action1">
-				<div class="ah-schet">
-					<span class="ah-schet-span">До конца акции осталось</span>
+			<div class="col-md-12 col-sm-12 col-xs-12 ah-action2">
+				<div class="ah-schet2">
+					<span class="ah-schet-span2">До конца акции осталось</span>
 					<ul id="clockdiv">
 						<li class="ah-schet-wrapp-span hours1"></li>
 						<li class="ah-schet-wrapp-span hours2"></li>

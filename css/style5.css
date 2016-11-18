@@ -466,8 +466,8 @@
   background: linear-gradient(to right, #4dc6d2, #2f7da9);
   width: 100%;
   padding: 10px 15px;
-  margin-top: 50px;
-  margin-bottom: 0px; }
+  margin-top: 10px;
+  margin-bottom: 20px; }
   .df-norisk .df-imgno {
     display: none; }
   .df-norisk .df-textrisk {
@@ -486,23 +486,23 @@
       font-family: "OpenSans-Regular";
       line-height: 20px; }
 
-.ah-action {
+.ah-action2 {
   margin-top: 25px; }
 
-.ah-action1 {
+.ah-action2 {
   background: #ffd296;
   min-height: none;
   padding: 0px 10px;
   margin-bottom: 20px; }
 
-.ah-schet {
+.ah-schet2 {
   float: none;
   width: 100%;
   text-align: center;
   margin-top: 20px;
   margin-right: 0px; }
 
-.ah-schet-span {
+.ah-schet-span2 {
   display: block;
   font-family: "OpenSans-Regular";
   color: #928779;
@@ -658,12 +658,15 @@
   .df-price .df-list .dfmtopbotom {
     margin: 33px 0; }
 
-  .ah-action1 {
+  .dfmtop {
+    margin-top: 37px !important; }
+
+  .ah-action2 {
     background: url(../img/df-bg-clock.png) top center no-repeat;
     min-height: 160px;
-    margin: 15px 0 35px 0; }
+    margin: 0px 0 19px 0; }
 
-  .ah-schet {
+  .ah-schet2 {
     float: right;
     width: 350px;
     text-align: center;
@@ -734,7 +737,9 @@
 
   .df-norisk {
     height: 140px;
-    padding: 0px 0 15px 40px; }
+    padding: 0px 0 15px 40px;
+    margin-bottom: 17px;
+    margin-top: 50px; }
     .df-norisk .df-imgno {
       display: inline-block; }
       .df-norisk .df-imgno img {
