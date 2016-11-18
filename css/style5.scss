@@ -303,7 +303,8 @@ $blacklight: #414042;
 }
 .df-vertical-slider{
 	float: left;
-	margin: 27px 20px 0 10px;	
+	margin: 27px 20px 0 10px;
+	display: none;//<<<<<<<<<<<<<<<<<<<<<<<	
 	.owl-carousel-card{
 	width: 80px;
 	height: auto;
@@ -354,7 +355,14 @@ $blacklight: #414042;
 	float: left;
 	margin-right: 30px;	
 }
-			
+
+.dfcolor{
+	color:#414143;
+}	
+.checkbox-custom:active ~ .dftext {
+	color:#414143;
+}
+
 
 .df-rightblock{	
 	width: 100%;height: auto;	
@@ -409,10 +417,7 @@ $blacklight: #414042;
 			    background:none;
 			    border-radius: 70px;				    
 			    display: inline-block;			    
-			}
-			.dfcolor{
-			    	color:#414143;
-			    }				
+			}						
 			.checkbox-custom{
 			    display: inline-block;
 			    vertical-align: middle;
@@ -438,6 +443,9 @@ $blacklight: #414042;
 			    left: 0px;		    
 			    border-radius: 70px;		   
 			    background: #feb715;
+			}
+			.checkbox-custom:hover{
+				background:#feb715;
 			}						
 		}		
 	}
@@ -683,6 +691,11 @@ $blacklight: #414042;
 	}
 	.zk_news_caption{
 		text-align: left;
+	}
+
+	//product
+	.df-vertical-slider{
+		display: inline-block;
 	}
 
 	//tabs php

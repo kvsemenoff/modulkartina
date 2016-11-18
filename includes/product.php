@@ -63,23 +63,23 @@
 				<div class="df-radiobuttons">						
 					 <form>
 					   <h4 class="df-cap">Выберите размер</h4>					   
-						<label>
+						<label>							
 					    	<input class="checkbox" type="radio" name="checkbox-test" checked >
-					    	<span class="checkbox-custom" cheked></span>
-					    	<span class="label"></span>
-					    	<span class="dftext dfcolor">90х64 см (20х37, 20х50. 20х53, 20х53)</span>
+					    	<span class="checkbox-custom" tabindex="0"></span>
+					    	<span class="label"></span>	
+					    	<span class="dftext">90х64 см (20х37, 20х50. 20х53, 20х53)</span>    	
 						</label>
-						<label>
+						<label>							
 					    	<input class="checkbox" type="radio" name="checkbox-test" >
-					    	<span class="checkbox-custom"></span>
+					    	<span class="checkbox-custom" tabindex="0"></span>
 					    	<span class="label"></span>
-					    	<span class="dftext">120х90 см (2х52, 28х70. 28х74, 28х74)</span>
+					    	<span class="dftext">120х90 см (2х52, 28х70. 28х74, 28х74)</span>	    	
 						</label>
-						<label>
+						<label>							
 					    	<input class="checkbox" type="radio" name="checkbox-test">
-					    	<span class="checkbox-custom"></span>
+					    	<span class="checkbox-custom" tabindex="0"></span>
 					    	<span class="label"></span>
-					    	<span class="dftext">150х114 см (36х66, 36х89. 36х94, 36х94)</span>
+					    	<span class="dftext">150х114 см (36х66, 36х89. 36х94, 36х94)</span>		    	
 						</label>
 					  </form>
 				</div>
@@ -104,7 +104,14 @@
 	</div>
 </div>
 <script>
-	$('.checkbox-custom').click(function() { 	       
-        $('.dftext').toggleClass('dfcolor');              
-    });
+	// $('.checkbox').on('click', function() { 	       
+ //        $(this).find('.dftext').toggleClass("dfcolor");
+ //        // if($(this) == (':checked')){
+ //        // 	$('.dftext').toggleClass("dfcolor");
+ //        // }
+
+ //    });
+
+ 
+ 
 </script>		

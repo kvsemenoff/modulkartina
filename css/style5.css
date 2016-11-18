@@ -247,7 +247,8 @@
 
 .df-vertical-slider {
   float: left;
-  margin: 27px 20px 0 10px; }
+  margin: 27px 20px 0 10px;
+  display: none; }
   .df-vertical-slider .owl-carousel-card {
     width: 80px;
     height: auto; }
@@ -290,6 +291,12 @@
   max-height: 420px;
   float: left;
   margin-right: 30px; }
+
+.dfcolor {
+  color: #414143; }
+
+.checkbox-custom:active ~ .dftext {
+  color: #414143; }
 
 .df-rightblock {
   width: 100%;
@@ -337,8 +344,6 @@
       background: none;
       border-radius: 70px;
       display: inline-block; }
-    .df-rightblock .df-radiobuttons form .dfcolor {
-      color: #414143; }
     .df-rightblock .df-radiobuttons form .checkbox-custom {
       display: inline-block;
       vertical-align: middle; }
@@ -361,6 +366,8 @@
       bottom: 0px;
       left: 0px;
       border-radius: 70px;
+      background: #feb715; }
+    .df-rightblock .df-radiobuttons form .checkbox-custom:hover {
       background: #feb715; }
   .df-rightblock .df-price-buttons {
     border-bottom: 1px solid #e4e6e8;
@@ -561,6 +568,9 @@
 
   .zk_news_caption {
     text-align: left; }
+
+  .df-vertical-slider {
+    display: inline-block; }
 
   .df-tabs {
     margin-bottom: 35px;
