@@ -111,7 +111,12 @@
  //        // }
 
  //    });
-
- 
+  // 	$('.checkbox-custom').on('click', function() { 	   
+ 	// 	if($('.dftext') == $('.dfcolor')){
+ 	// 		return false;
+ 	// 	}else{
+ 	// 		$('.dftext').addClass('dfcolor');
+ 	// 	}
+ 	// });
  
 </script>		
